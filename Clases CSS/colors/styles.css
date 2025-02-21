@@ -1,0 +1,8 @@
+.box{
+    background: hsl(71, 52%, 74%);
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    color: hsl(251, 27%, 32%);
+    font-family: 'Courier New', Courier, monospace
+}
