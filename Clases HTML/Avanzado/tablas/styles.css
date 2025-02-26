@@ -1,0 +1,27 @@
+td, th {
+    border: none;
+    border-bottom: 1px solid #555050a9;
+    text-align: center;
+    padding: 4px;
+    padding-bottom: 9px;
+    font-family: sans-serif;
+}
+
+td {
+    color: #352b2bde;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 32px;
+    border-spacing: 5px ;
+    box-shadow: 0 0 20px #0001;
+    border-radius: 5px;
+}
+
+.foot-valor, .foot-total {
+    border: none;
+    padding: 15px;
+}
