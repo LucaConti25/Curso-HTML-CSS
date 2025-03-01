@@ -1,0 +1,23 @@
+h1 {
+    font-family: sans-serif;
+    margin: 30px;
+    color: #48e;
+}
+
+h1:hover {
+    color: red;
+}
+
+h1:active {
+    color: #ef1e;
+}
+
+
+.lista li:not(.excluir) {
+    color: #6e7a3d;
+}
+
+div:empty{
+    background-color: yellow;
+    padding: 30px;
+}

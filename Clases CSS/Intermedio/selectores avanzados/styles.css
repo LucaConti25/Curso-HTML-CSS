@@ -1,0 +1,24 @@
+/*Selector por atributo*/
+img[src$="webp"]{
+    width: 70%;
+}
+
+/*Selector descendiente*/
+ul li {
+    color: red;
+}
+
+/*Selector por hijo directo*/
+li > em {
+    color: #007896;
+}
+
+/*Selector adyacente*/
+h1 + p {
+    color:#1badd1;
+}
+
+/*Selector de hermano adyacente*/
+h1 ~ p {
+    color: #1badd1;
+}
