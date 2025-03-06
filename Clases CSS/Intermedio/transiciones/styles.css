@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    transition-property: left;
+    position: relative;
+    left:0;
+    border: 2px solid #01010f;
+    overflow: auto;
+}
+ /*Este archivo tenia lo de transiciones pero se uso el mismo ejemplo para ver overflow*/
+
