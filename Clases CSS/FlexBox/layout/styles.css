@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #1c90f091;
+    color: #FFF;
+}
+
+
+body,h1,header,img, p, nav, ul{
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url("https://redaccionrosario.com/wp-content/uploads/2020/07/utn-rosario-frente.jpg");
+    display: flex;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-wrap: balance;
+}
+
+.header__overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: #0006;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__item-container{
+    z-index: 10;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+
+.header__item-container p{
+    text-wrap: pretty;
+}
+
+.header__img {
+    min-width: 200px;
+    max-width: 40%;
+    border-radius:50%;
+    border: 6px solid #001;
+    margin: 20px;
+}
+
+/*NAVBAR SECCION*/
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:6px ;
+    position: sticky;
+    top: 0;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__link {
+    color: #4649f1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    border: 0;
+    margin: 2px;
+    transition: background-color 0.25s, border-radius 0.25s;
+}
+
+.nav__link:hover {
+    border-radius: 20px;
+    background-color: #1b8be7af;
+    color: #fff;
+}
+
+.link--login {
+    background-color: #4649f1 ;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+
+.link--login:hover {
+    background-color: #3236ff;
+}
+
+.nav__logo {
+    width: 30px;
+    align-self: start;
+}
+
+.nav__img-container, .nav__ul-container {
+    flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 150px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.box:hover {
+    outline: 5px solid #000;
+}
